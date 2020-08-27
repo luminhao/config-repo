@@ -1,10 +1,8 @@
+name: config-client-prod
 
 server:
-  port: 7780 # 端口
+  port: 7780
 
 spring:
   application:
-    name: config-client # 应用名称
-
-# 自定义配置
-name: config-client-prod
+    name: config-client
