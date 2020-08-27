@@ -1,10 +1,8 @@
+name: config-client-test
 
 server:
-  port: 7779 # 端口
+  port: 7779
 
 spring:
   application:
-    name: config-client # 应用名称
-
-# 自定义配置
-name: config-client-test
+    name: config-client
