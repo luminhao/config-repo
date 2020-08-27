@@ -1,10 +1,9 @@
 
+name: config-client-default
+
 server:
-  port: 7778 # 端口
+  port: 7777
 
 spring:
   application:
-    name: config-client # 应用名称
-
-# 自定义配置
-name: config-client-dev
+    name: config-client
